@@ -8,7 +8,9 @@ links:
   - name: null
     type: REPOSITORY
     url: 'https://bitbucket.org/magnetsinc/magnetize-cache'
-relationships: {}
+relationships:
+  DEPENDS_ON:
+    - 'ari:cloud:compass:7d7a1354-b50b-4f1e-b409-1f3c509aea99:component/910c34fb-0e18-40c8-8568-c31a5cefb046/1d243600-59a0-4643-8e83-454c33ced54c'
 
 # Learn more about formatting compass.yml:
 # https://go.atlassian.com/compass-yml-format
